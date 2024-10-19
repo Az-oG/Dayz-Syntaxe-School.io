@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+    font-family: Righteous;
+    src: url(./Righteous-Regular.ttf);
+}
+
+/* * = l'etoile donne du style à TOUS les elements */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* flexbox= sert à repartir equitablement des elements sur la page */
+.flexbox3 ul{
+    padding: 0;
+    /* display flex= positionne les differentes boites */
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+
+.flexbox3 li{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    font-size:1.9rem;
+    font-family: "Righteous";
+    text-transform: capitalize;
+    list-style: none;
+    background-color: rgba(0, 255, 255, 0.386);
+    justify-content: center;
+    /* centrer un unique element verticalement et horizontalement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* centrer un unique element verticalement et horizontalement */
+
+}
+.flexbox4 li{
+    list-style: none;
+    text-transform: capitalize;
+    font-size:1.2rem;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 4px;
+
+}
+.flexbox{
+    color: rgb(246, 245, 245);
+    font-size:2.6rem;
+    letter-spacing: 4.5px;
+    
+}
+
+
+body{
+    background: url(./assets/img/bg.jpg) no-repeat center/cover;
+    /* VH = 100% de la taille de l'écran (viewport height) */
+    min-height: 100vh;
+   
+    
+
+}
+
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    text-align: center;
+    /* les tailles de police doivent etre en "rem" */
+    font-size: 4.5rem;
+    text-shadow: 5px 5px 2px #000000ad;
+    color: #bf4d05d8;
+    font-family: "Lakki Reddy", sans-serif;
+    font-weight: 400;
+    background-color: rgba(245, 245, 220, 0);
+    margin: 0 auto;
+    
+  
+}
+p{
+    text-transform:lowercase;
+    letter-spacing: 1.5px;
+    text-shadow: 5px 5px 2px #000000b8;
+    color: #943b04d8;
+    background-color: rgba(245, 245, 220, 0);
+    /* centrer une boite */
+    margin: 0 auto;
+}
+main{
+    text-transform: uppercase;
+    min-height: 500px;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0);
+    font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: italic;
+    /* centrer une boite */
+    margin: 0 auto ;
+    border: 0px solid #f26a0900;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: -1px 0px 20px 5px rgba(241, 171, 171, 0);
+    padding: 15px;
+    
+}
+h2{
+    margin: 0;
+}
