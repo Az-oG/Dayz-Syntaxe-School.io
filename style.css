@@ -131,23 +131,54 @@ p{
   padding : 0;
 }
 
-main{
-  text-transform: uppercase;
-  min-height: 90px;
-  width: 90%;
+
+.tableau-style{
+  border-collapse: separate;
+  min-width: 400px;
+  width: auto;
+  margin: auto;
   text-align: center;
-  background-color: rgba(240, 248, 255, 0.77);
-  font-family: "Pacifico", serif;
-  font-weight: 100;
-  font-style: italic;
-    /* centrer une boite */
-    margin: 0 auto ;
-    border: 0px solid #f26a0900;
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: -1px 0px 20px 5px rgba(241, 171, 171, 0);
-    padding: 0 auto;
-    
+  border-radius: 15px 15px 15px 15px;
 }
+
+thead th {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+background-color: rgba(17, 17, 166, 0.741);
+color: #b1f8fe;
+text-align: center;
+
+}
+td {
+  cursor: pointer;
+  background-color: rgba(245, 245, 220, 0.489);
+  color: #000aff;
+}
+
+th, td {
+  padding: 15px 20px;
+}
+
+tbody tr, td, th {
+  border-radius: 15px 15px 15px 15px;
+}
+
+.td1:hover{
+color: rgb(241, 246, 246);
+background: rgba(0, 255, 242, 0.568);
+}
+.td2:hover{
+  color: rgb(241, 246, 246);
+  background: rgb(237 0 255 / 70%);
+  }
+  .td3:hover{
+    color: rgb(241, 246, 246);
+    background: rgba(0, 255, 76, 0.7);
+    }
+    .td4:hover{
+      color: rgb(241, 246, 246);
+      background: rgba(255, 123, 0, 0.7);
+      }
 
 h2{
     margin: 0;
@@ -166,6 +197,13 @@ footer{
    }
 } */
 
+@media screen and (max-width: 437px) {
+  .tableau-style{
+min-width: 280px;
+  }
+}
+  
+
 
 @media screen and (max-width: 910px) {
   .flexbox2{
@@ -180,12 +218,12 @@ footer{
       width: 180px;
     }  
   }
-@media screen and (max-width: 814px) {
+/* @media screen and (max-width: 814px) {
     .flexbox2{
       font-size: 3.8rem;
       letter-spacing: 3.8px;
     }  
-  }
+  } */
   @media screen and (max-width: 814px) {
     .flexbox3 li{
       font-size: 1.1rem;
@@ -195,8 +233,8 @@ footer{
   }
   @media screen and (max-width: 778px) {
     .flexbox2{
-      font-size: 3.6rem;
-      letter-spacing: 3.6px;
+      /* font-size: 3.6rem;
+      letter-spacing: 3.6px; */
       text-shadow: 4px 4px 2px #000000ad;
     }  
   }
@@ -227,12 +265,12 @@ footer{
       text-shadow: 3px 3px 2px #000000ad;
     }  
   }
- @media screen and (max-width: 744px) {
+ /* @media screen and (max-width: 744px) {
     .flexbox2{
       font-size: 3.4rem;
       letter-spacing: 3.4px;
     }  
-  }
+  } */
   @media screen and (max-width: 744px) {
     .flexbox3 li{
       font-size: 0.9rem;
@@ -240,12 +278,12 @@ footer{
       width: 150px;
     }  
   }
- @media screen and (max-width: 710px) {
+ /* @media screen and (max-width: 710px) {
     .flexbox2{
       font-size: 3.2rem;
       letter-spacing: 3.2px;
     }  
-  }
+  } */
   @media screen and (max-width: 710px) {
     .flexbox3 li{
       font-size: 0.8rem;
@@ -253,12 +291,12 @@ footer{
       width: 140px;
     }  
   }
- @media screen and (max-width: 674px) {
+ /* @media screen and (max-width: 674px) {
     .flexbox2{
       font-size: 3rem;
       letter-spacing: 3px;
     }  
-  }
+  } */
   @media screen and (max-width: 674px) {
     .flexbox3 li{
       font-size: 0.7rem;
@@ -268,7 +306,7 @@ footer{
   }
  @media screen and (max-width: 640px) {
     .flexbox2{
-      font-size: 2.8rem;
+      /* font-size: 2.8rem; */
       text-shadow: 3px 3px 2px #000000ad;
     }  
   }
@@ -289,11 +327,11 @@ footer{
       width: 120px;
     }  
   }
- @media screen and (max-width: 606px) {
+ /* @media screen and (max-width: 606px) {
     .flexbox2{
       font-size: 2.6rem;
     }  
-  }
+  } */
   @media screen and (max-width: 606px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -301,11 +339,11 @@ footer{
       width: 110px;
     }  
   }
-  @media screen and (max-width: 542px) {
+  /* @media screen and (max-width: 542px) {
     .flexbox2{
       font-size: 2.4rem;
     }  
-  }
+  } */
   @media screen and (max-width: 542px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -313,11 +351,11 @@ footer{
       width: 100px;
     }  
   }
-    @media screen and (max-width: 508px) {
+    /* @media screen and (max-width: 508px) {
     .flexbox2{
       font-size: 2.2rem;
     }  
-  }
+  } */
   @media screen and (max-width: 508px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -325,11 +363,11 @@ footer{
       width: 90px;
     }  
   }
-  @media screen and (max-width: 472px) {
+  /* @media screen and (max-width: 472px) {
     .flexbox2{
       font-size: 2rem;
     }  
-  }
+  } */
   @media screen and (max-width: 472px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -339,7 +377,7 @@ footer{
   }
     @media screen and (max-width: 438px) {
     .flexbox2{
-      font-size: 1.7rem;
+      /* font-size: 1.7rem; */
       text-shadow: 2px 2px 2px #000000ad;
     }  
   }
@@ -350,11 +388,11 @@ footer{
       width: 70px;
     }  
   }
-  @media screen and (max-width: 403px) {
+  /* @media screen and (max-width: 403px) {
     .flexbox2{
       font-size: 1.6rem;
     }  
-  }
+  } */
   @media screen and (max-width: 404px) {
     .flexbox1{
       text-shadow: 2px 1px 2px #000000ad;
@@ -367,11 +405,11 @@ footer{
       width: 70px;
     }  
   }
-    @media screen and (max-width: 368px) {
+    /* @media screen and (max-width: 368px) {
     .flexbox2{
       font-size: 1.4rem;
     }  
-  }
+  } */
   @media screen and (max-width: 368px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -379,16 +417,16 @@ footer{
       width: 70px;
     }  
   }
-@media screen and (max-width: 351px) {
+/* @media screen and (max-width: 351px) {
 .flexbox2{
   font-size: 1.2rem;
 }  
-}
-@media screen and (max-width: 333px) {
+} */
+/* @media screen and (max-width: 333px) {
     .flexbox2{
       font-size: 1.1rem;
     }  
-    }
+    } */
     @media screen and (max-width: 333px) {
         .flexbox3 li{
           font-size: 0.5rem;
@@ -498,11 +536,11 @@ footer{
       font-size: 0.7rem;
     }  
   }
-  @media screen and (max-width: 281px) {
+  /* @media screen and (max-width: 281px) {
     .flexbox2{
       font-size: 1rem;
     }  
-    }
+    } */
     @media screen and (max-width: 265px) {
       .flexbox{
         font-size: 0.6rem;
@@ -514,11 +552,11 @@ footer{
         font-size: 0.3rem;
       }  
     }
-    @media screen and (max-width: 265px) {
+    /* @media screen and (max-width: 265px) {
       .flexbox2{
         font-size: 0.9rem;
       }  
-      }
+      } */
       @media screen and (max-width: 267px) {
         .flexbox4 li{
           letter-spacing: 1.2px;
