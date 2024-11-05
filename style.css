@@ -36,7 +36,7 @@
     font-family: "Righteous";
     text-transform: capitalize;
     list-style: none;
-    background-color: rgba(240, 248, 255, 0.77);
+    background-color: rgba(94 151 135 / 77%);
     justify-content: center;
     border-radius: 15px 15px 15px 15px;
     /* centrer un unique element verticalement et horizontalement */
@@ -99,11 +99,11 @@ h1{
     /* les tailles de police doivent etre en "rem" */
     font-size: 8vw; /* vw = taille d'un texte en fonction de l'ecran de l'utilisateur */
     text-shadow: 5px 5px 2px #000000ad;
-    color: rgb(147, 102, 237);
+    color: rgb(209 230 214 / 90%);
     font-family: "Lakki Reddy", sans-serif;
     font-weight: 400;
     border-radius: 15px 15px 15px 15px;
-    background-color: rgba(240, 248, 255, 0.77);
+    background-color: rgba(94 151 135 / 77%);
     margin: none;
     
   
@@ -113,7 +113,7 @@ p{
     text-transform:lowercase;
     letter-spacing: 1.5px;
     text-shadow: 5px 5px 2px #000000b8;
-    color: rgb(200, 55, 241);
+    color: rgb(209 230 214 / 90%);
     /* centrer une boite */
     margin: 0 auto;
 }
