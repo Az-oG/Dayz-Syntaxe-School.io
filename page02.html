@@ -19,21 +19,66 @@
 
     <main>
       <section id="form">
-      <form
-  action="https://formspree.io/f/xnnqvqla"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+        <form action="https://formspree.io/f/xnnqvqla" method="POST">
+          <br />
+          <br />
+          <label for="nom et prenom">nom et prenom :</label>
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="votre nom et prénom"
+            required=""
+          />
+          <br />
+          <br />
+          <label for="pseudo Discord">pseudo Discord :</label>
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="votre nom et prénom"
+            required=""
+          />
+          <br />
+          <br />
+          <label for="adresse e-mail">adresse e-mail :</label>
+          <input
+            type="email"
+            name="_replyto"
+            id="email-address"
+            placeholder="votre e-mail"
+            required=""
+          />
+          <br />
+          <br />
+          <label for="department">type de service :</label>
+          <select name="department" id="department" required="">
+            <option value="" selected="" disabled="">faites votre choix</option>
+            <option value="Cours ">Cours de Syntaxes [Nitrado] de A à Z</option>
+            <option value="Réglages">
+              Réglages de vos serveurs [fichiers divers]
+            </option>
+            <option value="Corrections">
+              Corrections de vos fichiers [XML & .json]
+            </option>
+            <option value="Réalisations">
+              Réalisations de vos " Mappings "
+            </option>
+          </select>
+          <br />
+          <br />
+          <textarea name="message">votre message...</textarea>
+          <br />
+          <br />
+          <!-- input type checkbox = est un moyen pour valider quelque chose -->
+          <input type="checkbox" name="cgv" id="cgv" required="" />
+          <label for="cgv">Accepter les conditions générales </label>
+          <br />
+          <br />
+          <!-- your other form fields go here -->
+          <button type="submit">envoyer</button>
+        </form>
       </section>
     </main>
     <footer></footer>
