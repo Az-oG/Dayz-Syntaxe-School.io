@@ -19,92 +19,21 @@
 
     <main>
       <section id="form">
-        <form
-          id="fs-frm"
-          name="department-contact-form"
-          accept-charset="utf-8"
-          action="https://formspree.io/f/xwpkorgz"
-          method="post"
-        >
-          <label for="Nom et Prénom">nom et prénom :</label>
-          <input
-            type="text"
-            name="Nom et Prénom"
-            placeholder="votre nom et prénom"
-            required=""
-          />
-          <br />
-          <br />
-          <label for="Discord">pseudo Discord :</label>
-          <input
-            type="text"
-            name="Nom et Prénom"
-            placeholder="votre nom et prénom"
-            required=""
-          />
-          <br />
-          <br />
-          <label for="adresse e-mail"> adresse e-mail :</label>
-          <input
-            type="email"
-            name="_replyto"
-            placeholder="votre mail"
-            required=""
-          />
-          <br />
-          <br />
-          <label for="type de service">type de service :</label>
-          <select name="type de service" required="">
-            <option value="" selected="" disabled="">faites votre choix</option>
-            <option value="Cours de Syntaxes[Nitrado]de A à Z">
-              Cours de Syntaxes[Nitrado]de A à Z
-            </option>
-            <option value="Réglages de vos serveurs [fichiers divers]">
-              Réglages de vos serveurs [fichiers divers]
-            </option>
-            <option value=" Corrections de vos fichiers [XML & .json]">
-              Corrections de vos fichiers [XML & .json]
-            </option>
-            <option value=" Réalisations de vos Mappings">
-              Réalisations de vos " Mappings "
-            </option>
-          </select>
-          <br />
-          <br />
-          <fieldset style="width: 90%; border: 0; color: rgb(255, 0, 0)">
-            <marquee behavior="autonome" direction="">
-              LA MAISON NE FAIT PAS "CREDIT"</marquee
-            >
-          </fieldset>
-          <br />
-          <br />
-          <label for="message">Message</label>
-          <textarea
-            rows="5"
-            name="message"
-            placeholder=" votre message..."
-            required=""
-          ></textarea>
-          <br />
-          <br />
-          <input type="checkbox" name="" id="cgv" required="" />
-          <label for="cgv">Accepter les conditions générales </label>
-          <input
-            type="hidden"
-            name="_subject"
-            id="email-subject"
-            value="Department Contact Form Submission"
-          />
-          <br />
-          <br />
-          <input type="submit" value="envoyer" />
-          <label for="crayon"></label>
-          <fieldset style="width: 90%; height: 90%; border: 0">
-            <marquee behavior="autonome" direction=""
-              ><img style="width: 500px" src="./crayon.gif" alt=""
-            /></marquee>
-          </fieldset>
-        </form>
+      <form
+  action="https://formspree.io/f/xnnqvqla"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
       </section>
     </main>
     <footer></footer>
