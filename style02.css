@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'poppins', sans-serif;
-  color: rgb(248, 248, 3);
+  color: rgb(248, 248, 100);
 }
 * textarea{
   color: rgb(231, 234, 165);
@@ -11,15 +11,19 @@
   background: rgba(148, 181, 193, 0.24);
   resize: none;
   width: 290px;
+  border-radius: 5px 5px 5px 5px;
 }
 ::placeholder{
-  color: rgba(244, 141, 6, 0.56);
+  color: rgba(244, 141, 6, 0.423);
 }
 
 body{
   font-display: flex;
   height: 100vh;
-  background: #24232a;
+  background: #052101;
+  background: -moz-linear-gradient(-45deg, #052101 0%, #131514 54%, #1C0427 100%);
+  background: -webkit-linear-gradient(-45deg, #052101 0%, #131514 54%, #1C0427 100%);
+  background: linear-gradient(135deg, #052101 0%, #131514 54%, #1C0427 100%);
   display: flex;
   justify-content: center;
   align-content: space-around;
@@ -27,8 +31,8 @@ body{
 }
 .container{
   position: relative;
-  width: 650px;
-  height: 650px;
+  width: 500px;
+  height: 550px;
   background: #3535358d;
   border-radius: 8px;
   overflow: hidden;
@@ -78,10 +82,11 @@ body{
 }
 
 .form h1{
-  text-align: center;
+ font-size: 3.2rem;
   letter-spacing: 0.1em;
   color: #03fe78;
 }
+
 
 label{
   color: rgb(247, 225, 198);
@@ -89,18 +94,19 @@ label{
 
 .inputbox input{
   background: rgba(148, 181, 193, 0.24);
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 5px 5px 5px 5px;
   height: 25px;
-  width: 250px;
+  width: 200px;
   border: none;
+  font-size: 1rem;
 }
 .inputbox select{
   background: rgba(148, 181, 193, 0.24);
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 5px 5px 5px 5px;
   height: 30px;
   width: 290px;
   border: none;
-  color: rgb(5, 181, 19, 0.653);
+  color: rgb(244, 141, 6, 0.56);
 }
 .inputbox option{
   color: rgb(2, 19, 19);
@@ -108,9 +114,7 @@ label{
   font-weight: 650;
 }
 
-/* ::placeholder {
-  color: rgba(5, 181, 19, 0.653);
-} */
+
 
 .inputbox1 button{
   color: #8103fe;
@@ -123,96 +127,53 @@ label{
   color: aliceblue;
 }
 
-@media screen and (max-width: 675px){
+@media screen and (max-width: 600px){
 .form {
-width: 650px;
+min-width: 300px;
+min-height: 300px;
 }
 }
 
-@media screen and (max-width: 675px){
+@media screen and (max-width: 600px){
 .container {
-width: 650px;
+min-width: 300px;
+min-height: 300px;
 }
 }
-@media screen and (max-width: 650px){
-  .form {
-  width: 600px;
+@media screen and (max-width: 420px){
+  .form h1{
+    font-size: 2.9rem;
   }
+}
+@media screen and (max-width: 386px){
+  .form h1{
+    font-size: 2.8rem;
   }
-  
-  @media screen and (max-width: 650px){
-  .container {
-  width: 600px;
+}
+
+@media screen and (max-width: 370px){
+  .form h1{
+    font-size: 2.7rem;
   }
+}
+@media screen and (max-width: 360px){
+  .form h1{
+    font-size: 2.6rem;
   }
-  @media screen and (max-width: 600px){
-    .form {
-    width: 550px;
-    }
-    }
-    
-    @media screen and (max-width: 600px){
-    .container {
-    width: 550px;
-    }
-    }
-    @media screen and (max-width: 550px){
-      .form {
-      width: 500px;
-      }
-      }
-      
-      @media screen and (max-width: 550px){
-      .container {
-      width: 500px;
-      }
-      }
-      @media screen and (max-width: 500px){
-        .form {
-        width: 450px;
-        }
-        }
-        
-        @media screen and (max-width: 500px){
-        .container {
-        width: 450px;
-        }
-        }
-        @media screen and (max-width: 450px){
-          .form {
-          width: 400px;
-          }
-          }
-          
-          @media screen and (max-width: 450px){
-          .container {
-          width: 400px;
-          }
-          }
-          @media screen and (max-width: 400px){
-            .form {
-            width: 380px;
-            }
-            }
-            
-            @media screen and (max-width: 400px){
-            .container {
-            width: 380px;
-            }
-            }
-            @media screen and (max-width: 380px){
-              .form {
-              width: 320px;
-              }
-              }
-              
-              @media screen and (max-width: 380px){
-              .container {
-              width: 320px;
-              }
-              }
-           
-            
+}
+@media screen and (max-width: 350px){
+  .form h1{
+    font-size: 2.5rem;
+  }
+}
+
+
+
+@media screen and (max-width: 370px){
+  .inputbox select, textarea{
+    width: 250px;
+  }
+}
 
 
 
