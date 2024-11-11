@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style02.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h1>╚   Formulaire  ╝</h1>
+        <div class="inputbox">
+          <label for="name">nom et prenom :</label>
+        <input type="text" placeholder="  nom et prenom" />
+        </div>
+
+        <div class="inputbox">
+          <label for="name">pseudo Discord :</label>
+          <input type="text" placeholder="  pseudo Discord" />
+        </div>
+
+        <div class="inputbox">
+          <label for="name">votre e-mail :</label>
+          <input type="email" placeholder="  votre e-mail" />
+        </div>
+
+        <div class="inputbox">
+          <label class="type_de_service" for="type de service">type de service :</label>
+          <select name="type de service" id="type de service" required="">
+            <option value="" selected="" disabled="">faites votre choix</option>
+            <option value="Cours de Syntaxes [Nitrado] de A à Z ">
+              Cours de Syntaxes [Nitrado] de A à Z
+            </option>
+            <option value=" Réglages de vos serveurs [fichiers divers]">
+              Réglages de vos serveurs [fichiers divers]
+            </option>
+            <option value="Corrections de vos fichiers [XML & .json]">
+              Corrections de vos fichiers [XML & .json]
+            </option>
+            <option value=" Réalisations de vos  Mappings ">
+              Réalisations de vos " Mappings "
+            </option>
+          </select>
+        </div
+        <div class="inputbox2">
+          <label for="message">message :</label>
+          <textarea
+          rows="5"
+          cols="35"
+          name="message"
+          placeholder ="votre message..."
+        ></textarea>
+        <div class="checkbox">
+          <input type="checkbox" name="cgv" id="cgv" required="" />
+          <label for="cgv">Accepter les conditions générales </label>
+        </div>
+        <div class="inputbox1">
+          <button type="submit">envoyer</button>
+        </div>
+        </div>
+    </div>
+    <header></header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
