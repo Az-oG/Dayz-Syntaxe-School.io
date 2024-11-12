@@ -45,9 +45,9 @@ body{
   left: -25%;
   width: 380px;
   height: 420px;
-  background: linear-gradient(0deg,transparent, #03fe78, #03fe78 );
+  background: linear-gradient(0deg,transparent, #00fcd2, #00ff15 );
   transform-origin: bottom right;
-  animation: animate 7s linear infinite;
+  animation: animate 8s linear infinite;
 }
 .container::after{
   content: '';
@@ -56,10 +56,10 @@ body{
   left: -25%;
   width: 380px;
   height: 420px;
-  background: linear-gradient(0deg,transparent, #d803fe, #d803fe);
+  background: linear-gradient(0deg,transparent, #d700fd, #5d00fd);
   transform-origin: bottom right;
-  animation: animate 7s linear infinite;
-  animation-delay: 3.5s;
+  animation: animate 8s linear infinite;
+  animation-delay: 3s;
 }
 @keyframes animate{
   100%{
