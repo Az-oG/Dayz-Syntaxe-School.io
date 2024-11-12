@@ -131,11 +131,13 @@ label{
 .form {
 width: 500px;
 justify-content: space-around;
+padding: 9px 55px;
+margin: 0;
 }
 }
 @media screen and (max-width: 569px){
 .container {
-width: 500px;
+width: 505.5px;
 }
 }
 
@@ -146,7 +148,7 @@ width: 500px;
   }
   @media screen and (max-width: 519px){
   .container {
-  width: 480px;
+    width: 485.5px;
   }
   }
 
@@ -157,7 +159,7 @@ width: 500px;
     }
     @media screen and (max-width: 500px){
     .container {
-    width: 450px;
+    width: 455.5px;
     }
     }
 
@@ -168,9 +170,15 @@ width: 500px;
       }    
       @media screen and (max-width: 470px){
       .container {
-      width: 400px;
+        width: 405px;
       }
       }
+      @media screen and (max-width: 470px){
+        .container::before,.container::after {
+          height: 400px;
+          transform-origin: bottom center;
+        }
+        }
 
       @media screen and (max-width: 415px){
         .form {
@@ -179,7 +187,7 @@ width: 500px;
         }        
         @media screen and (max-width: 415px){
         .container {
-        width: 380px;
+          width: 385px;
         }
         }
 
@@ -190,7 +198,7 @@ width: 500px;
           }         
           @media screen and (max-width: 400px){
           .container {
-          width: 360px;
+            width: 366px;
           }
           }
 
@@ -201,9 +209,15 @@ width: 500px;
             }           
             @media screen and (max-width: 370px){
             .container {
-            width: 350px;
+              width: 355px;
             }
             }
+            @media screen and (max-width: 370px){
+              .container::before,.container::after {
+                height: 400px;
+                transform-origin: bottom center;
+              }
+              }
 
             @media screen and (max-width: 365px){
               .form {
@@ -212,9 +226,15 @@ width: 500px;
               }            
               @media screen and (max-width: 365px){
               .container {
-              width: 330px;
+              width: 336px;
               }
               }
+              @media screen and (max-width: 365px){
+                .container::before,.container::after {
+                  height: 400px;
+                  transform-origin: bottom center;
+                }
+                }
 
               @media screen and (max-width: 340px){
                 .form {
@@ -223,21 +243,21 @@ width: 500px;
                 }               
                 @media screen and (max-width: 340px){
                 .container {
-                width: 320px;
+                width: 325px;
                 }
                 }
+                @media screen and (max-width: 330px){
+                  .container {
+                    align-items: center;
+                    width: 306.5px;
+                  }
+                  }
 
-                @media screen and (max-width: 320px){
+                @media screen and (max-width: 330px){
                   .form {
                   width: 300px;
-                  align-items: center;
                   }
                   }                
-   @media screen and (max-width: 320px){
-     .container {
-       width: 300px;
-   }
-  }
 
 
 @media screen and (max-width: 420px){
@@ -282,6 +302,11 @@ width: 500px;
 @media screen and (max-width: 330px){
   .inputbox select, textarea{
     width: 240px;
+  }
+}
+@media screen and (max-width: 326px){
+  .inputbox select, textarea{
+    width: 235px;
   }
 }
 
