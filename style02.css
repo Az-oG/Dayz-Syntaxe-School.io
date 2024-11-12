@@ -31,7 +31,7 @@ body{
 }
 .container{
   position: relative;
-  width: 500px;
+  width: 550px;
   height: 550px;
   background: #3535358d;
   border-radius: 8px;
@@ -76,7 +76,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: nowrap;
   align-content: flex-end;
 }
@@ -127,19 +127,119 @@ label{
   color: aliceblue;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 569px){
 .form {
-min-width: 300px;
-min-height: 300px;
+width: 500px;
+justify-content: space-around;
+}
+}
+@media screen and (max-width: 569px){
+.container {
+width: 500px;
 }
 }
 
-@media screen and (max-width: 600px){
-.container {
-min-width: 300px;
-min-height: 300px;
-}
-}
+@media screen and (max-width: 519px){
+  .form {
+  width: 480px;
+  }
+  }
+  @media screen and (max-width: 519px){
+  .container {
+  width: 480px;
+  }
+  }
+
+  @media screen and (max-width: 500px){
+    .form {
+    width: 450px;
+    }
+    }
+    @media screen and (max-width: 500px){
+    .container {
+    width: 450px;
+    }
+    }
+
+    @media screen and (max-width: 470px){
+      .form {
+      width: 400px;
+      }
+      }    
+      @media screen and (max-width: 470px){
+      .container {
+      width: 400px;
+      }
+      }
+
+      @media screen and (max-width: 415px){
+        .form {
+        width: 380px;
+        }
+        }        
+        @media screen and (max-width: 415px){
+        .container {
+        width: 380px;
+        }
+        }
+
+        @media screen and (max-width: 400px){
+          .form {
+          width: 360px;
+          }
+          }         
+          @media screen and (max-width: 400px){
+          .container {
+          width: 360px;
+          }
+          }
+
+          @media screen and (max-width: 370px){
+            .form {
+            width: 350px;
+            }
+            }           
+            @media screen and (max-width: 370px){
+            .container {
+            width: 350px;
+            }
+            }
+
+            @media screen and (max-width: 365px){
+              .form {
+              width: 330px;
+              }
+              }            
+              @media screen and (max-width: 365px){
+              .container {
+              width: 330px;
+              }
+              }
+
+              @media screen and (max-width: 340px){
+                .form {
+                width: 320px;
+                }
+                }               
+                @media screen and (max-width: 340px){
+                .container {
+                width: 320px;
+                }
+                }
+
+                @media screen and (max-width: 320px){
+                  .form {
+                  width: 300px;
+                  align-items: center;
+                  }
+                  }                
+   @media screen and (max-width: 320px){
+     .container {
+       width: 300px;
+   }
+  }
+
+
 @media screen and (max-width: 420px){
   .form h1{
     font-size: 2.9rem;
@@ -166,6 +266,11 @@ min-height: 300px;
     font-size: 2.5rem;
   }
 }
+@media screen and (max-width: 330px){
+  .form h1{
+    font-size: 2.4rem;
+  }
+}
 
 
 
@@ -174,7 +279,11 @@ min-height: 300px;
     width: 250px;
   }
 }
-
+@media screen and (max-width: 330px){
+  .inputbox select, textarea{
+    width: 240px;
+  }
+}
 
 
 
