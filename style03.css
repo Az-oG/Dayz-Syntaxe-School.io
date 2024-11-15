@@ -8,6 +8,11 @@
     box-sizing: border-box;
     font-size: 1.2rem;
     color: #e11cf8;
+    text-decoration: none;
+
+}
+* img{
+    height: 30px;
 }
 
  div:nth-child(2){
@@ -17,12 +22,29 @@ div:nth-child(3){
     color: #93ff2d;
 }
 
-.mail{
-    color: rgb(251, 5, 5);
+.passat{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-size: 1.2rem;
 }
-.discord {
-    color: #5e2df1;
+.Discord2{
+    color: rgb(250, 249, 249);
+    font-size: 1rem;
 }
+
+.mail :hover{
+    color: #ec00fd;
+    height: 100px; 
+}
+
+.discord :hover {
+    color: #04ffe2;
+    font-size: 1.5rem;
+}
+.Discord3 :hover{
+    height: 100px; 
+}
+
 
 .container2{
     display: grid;
@@ -31,15 +53,15 @@ div:nth-child(3){
     align-items: end;
     justify-items: end;
     height: 60px;
-    width: 500px;
 }
 
 .container3{
     display: grid;
-    width: 150px;
-    align-items: end;
-    justify-items: start;
-    align-content: space-between;
+    width: 80px;
+    height: 52px;
+    align-items: stretch;
+    justify-items: stretch;
+    align-content: center;
     justify-content: start;
 }
 
@@ -50,8 +72,20 @@ body{
     flex-wrap: wrap;
     align-content: space-around;
     flex-direction: column-reverse;
-    min-height: 100vh;
+    height: 100vh;
     background: #111;
+}
+ .map{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+}
+.map iframe{
+    width: 780px;
+    height: 250px;
 }
 
 .container{
@@ -60,6 +94,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: space-between;
+    flex-direction: row;
 }
 
 .container .ring {
@@ -168,60 +204,139 @@ border-left: 4px solid #93ff2d;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #01e8fde8;
+    background-color: #01e8fda1;
     border-radius: 28px 28px 28px 28px;
 }
 
-
-
-
-
 @media screen and (max-width: 950px){
     .container2{
-        width: 480px;
+        width: 740px;
     }
     .contacter{
         font-size: 1.4em;  
     }
+    .map iframe{
+        width: 740px;
+        height: 220px;
+    }
 }
+
 @media screen and (max-width: 850px){
     .container2{
-        width: 460px;
+        width: 720px;
     }
     .contacter{
         font-size: 1.3em;  
     }
+    .map iframe{
+        width: 700px;
+        height: 200px;
+    }
 }
+
 @media screen and (max-width: 750px){
     .container2{
-        width: 440px;
+        width: 650px;
     }
     .contacter{
         font-size: 1.2em;  
     }
-}
-@media screen and (max-width: 650px){
-    .container2{
-        width: 420px;
+    .map iframe{
+        width: 650px;
+        height: 150px;
     }
 }
+
+@media screen and (max-width: 700px){
+    .container2{
+        width: 600px;
+    }
+    .map iframe{
+        width: 600px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .container2{
+        width: 550px;
+    }
+    .map iframe{
+        width: 550px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container2{
+        width: 500px;
+    }
+    .map iframe{
+        width: 500px;
+        height: 150px;
+    }
+}
+
 @media screen and (max-width: 550px){
     .container2{
-        width: 380px;
+        width: 450px;
+    }
+    .map iframe{
+        width: 450px;
+        height: 150px;
     }
 }
 @media screen and (max-width: 500px){
     .container2{
-        width: 350px;
+        width: 400px;
+    }
+    .map iframe{
+        width: 400px;
+        height: 150px;
     }
 }
+
 @media screen and (max-width: 450px){
+    .contacter{
+        font-size: 1.1em; 
+        letter-spacing: 0.10em; 
+    }
+    .container2{
+        width: 350px;
+    }
+    .map iframe{
+        width: 350px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container2{
+        width: 320px;
+    }
+    .contacter{
+        font-size: 1em; 
+    }
+    .map iframe{
+        width: 320px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 350px){
     .container2{
         width: 300px;
     }
+    .map iframe{
+        width: 300px;
+        height: 150px;
+    }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 335px){
     .container2{
-        width: 250px;
+        width: 290px;
+    }
+    .map iframe{
+        width: 290px;
+        height: 150px;
     }
 }
