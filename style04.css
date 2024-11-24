@@ -170,6 +170,7 @@ margin-bottom: 35rem;
 text-align: center;
 font-size: 1.5rem;
 padding: 2rem;
+height: 80%;
 }
 
 .point_Exclamation,  .point_Exclamation2{
@@ -346,9 +347,6 @@ body{
   }
   .paragraphe {
     margin-bottom: 25rem ;
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 0 ;
 }
 .paragraphe p{
   padding: 0;
@@ -395,10 +393,7 @@ body{
     width: 700px;
   }
   .paragraphe {
-    margin-bottom: 25rem ;
-    text-align: center;
-    font-size: 1.1rem;
-    padding: 0 ;
+    margin-bottom: 24rem ;
 }
 .paragraphe p{
   padding: 0;
@@ -611,6 +606,7 @@ body{
 
 
 @media screen and (max-width: 486px) {
+
   .flexbox3 li{
     font-size: 1rem;
     height: 90px;
@@ -677,10 +673,10 @@ body{
     top: 2.5px;
   }
   .box span{
-    -webkit-box-reflect: below -100.5px linear-gradient(transparent,#0004) ;
+    -webkit-box-reflect: below -112.5px linear-gradient(transparent,#0004) ;
   }
   .box2 span{
-    -webkit-box-reflect: below -100.5px linear-gradient(transparent,#0004) ;
+    -webkit-box-reflect: below -112.5px  linear-gradient(transparent,#0004) ;
   }
   /* .box span img{
     width: 20%;
