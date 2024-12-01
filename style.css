@@ -6,6 +6,10 @@
     src: url(./Righteous-Regular.ttf);
 }
 
+
+
+
+
 /* * = l'etoile donne du style à TOUS les elements */
 /* *{
     margin: 0;
@@ -16,20 +20,30 @@
 /* flexbox= sert à repartir equitablement des elements sur la page */
 
 
+
+
+
+
+
 .flexbox3 ul{
     padding: 0;
     /* display flex= positionne les differentes boites */
     display: flex;
     justify-content: space-around;
     /* background-color: rgba(240, 248, 255, 0.77); */
-    border-radius: 15px 15px 15px 15px;
-    
-
+    border-radius: 15px;
+    margin-bottom: 15rem;
 }
 
+
+
+
+
+
+    /* styles "presentation/contact/photos/formulaire"  */
 .flexbox3 li {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     margin: 10px;
     text-align: center;
     font-size:1.3rem;
@@ -38,59 +52,158 @@
     list-style: none;
     background-color: rgba(94 151 135 / 77%);
     justify-content: center;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
     /* centrer un unique element verticalement et horizontalement */
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.2s;
     /* centrer un unique element verticalement et horizontalement */
-
 }
+ /* styles "presentation/contact/photos/formulaire"  */
+
+
+
+
+
+ /* *= désigne la totalité de la police de la page  */
+* {
+  text-decoration: none;
+}
+ /* *= désigne la totalité de la police de la page  */
+
+
+ 
+
+
+/* couleur et epaisseur des labels "presentation/contact/photos/formulaire"  */
+* a{
+  color: #2f0366c8;
+  font-weight: 550;
+}
+/* couleur et epaisseur des labels "presentation/contact/photos/formulaire"  */
+
+
+
+
+
+
+
+
+/* LARGEUR des labels pour qu'ils puissent prendre la même dimension que les inputs lorsqu'on survole ceux-ci  */
+.Présentation{
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.Contact{
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.Photos{
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.Formulaire{
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+/* LARGEUR des labels pour qu'ils puissent prendre la même dimension que les inputs lorsqu'on survole ceux-ci  */
+
+
+
+
+
+
+
+
+
+/* changement de couleur pour les labels lors du survolage de la souris "presentation/contact/photos/Formulaire"*/
+.flexbox3 li :hover{
+  color: beige;
+}
+ /* changement de couleur pour les labels lors du survolage de la souris "presentation/contact/photos/Formulaire"*/
+
+
+
+
+
+
+
+/* couleur du hover "presentation"  */
 .li1:hover {
   background: rgba(249, 123, 219, 0.716);
-  color: white;
 }
+/* couleur du hover "presentation"  */
+
+
+
+
+
+ /* couleur du hover "contact"  */
 .li2:hover {
-  background: rgba(246, 237, 107, 0.716);
+  background: rgba(246, 234, 68, 0.716);
 }
+/* couleur du hover "contact"  */
+
+
+
+
+/* couleur du hover "photos"  */
 .li3:hover {
   background: rgba(244, 53, 53, 0.716);
 }
+/* couleur du hover "photos"  */
+
+
+
+
+
+/* couleur du hover "Formulaire"  */
 .li4:hover {
-  background: rgba(148, 127, 241, 0.716);
+  background: rgba(95, 62, 241, 0.716);
 }
+/* couleur du hover "Formulaire"  */
+
+
+
+
+
+
 
 .grid-container img {
   width: 25%;
   align-items: center;
   margin: 0 auto;
-  display: flex;
-   /* display flex= positionne les differentes boites */
-  display: flex;
-  justify-content: space-around;
   background-color: rgba(240, 248, 255, 0.77);
   border-radius: 15px 15px 15px 15px;
   padding : 0;
+}
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-bottom: 15rem;
+}
   
-}
 
-.flexbox4 li{
-    list-style: none;
-    text-transform: capitalize;
-    letter-spacing: 2.5px;
-    color: rgb(83, 17, 214);
-    margin: 0 auto;
-    
 
-}
-
-.flexbox{
-    color: rgb(83, 17, 214);
-    font-size:2.6rem;
-    letter-spacing: 4.5px;
-    
-}
 
 h1{
     text-transform: uppercase;
@@ -105,8 +218,7 @@ h1{
     border-radius: 15px 15px 15px 15px;
     background-color: rgba(94 151 135 / 77%);
     margin: none;
-    
-  
+    margin-bottom: 10rem;
 }
 
 p{
@@ -116,21 +228,27 @@ p{
     color: rgb(209 230 214 / 90%);
     /* centrer une boite */
     margin: 0 auto;
+    margin-bottom: 20rem;
 }
 
 .grid-container2 img  {
   width: 25%;
   align-items: center;
   margin: 0 auto;
-  display: flex;
-   /* display flex= positionne les differentes boites */
-  display: flex;
-  justify-content: space-around;
   background-color: rgba(240, 248, 255, 0.77);
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px;
   padding : 0;
+  margin-bottom: 2rem;
 }
-
+.grid-container2{
+  display: flex;
+  flex-direction: column-reverse;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    margin-bottom: 22rem;
+}
 
 .tableau-style{
   border-collapse: separate;
@@ -138,51 +256,72 @@ p{
   width: auto;
   margin: auto;
   text-align: center;
-  border-radius: 15px 15px 15px 15px;
 }
 
+
+
+
+/* titre de la table des matieres  */
 thead th {
   text-transform: uppercase;
   font-size: 1.5rem;
-background-color: rgba(17, 17, 166, 0.741);
-color: #b1f8fe;
-text-align: center;
-
+  background-color: rgba(17, 17, 166, 0.741);
+  color: #b1f8fe;
+  text-align: center;
 }
+/* titre de la table des matieres  */
+
+
+
+
+
+/* Table des matieresLabel "cours de syntaxes/reglage serveurs/corrections fichiers/realisation mapping" */
 td {
   cursor: pointer;
   background-color: rgba(245, 245, 220, 0.489);
-  color: #000aff;
+  color: #02079c;
 }
+/* Table des matieresLabel "cours de syntaxes/reglage serveurs/corrections fichiers/realisation mapping" */
 
+
+
+
+/* Table des matieres  */
 th, td {
   padding: 15px 20px;
 }
-
 tbody tr, td, th {
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px ;
 }
+/* Table des matieres  */
 
+
+
+
+
+
+/* Design de la table des matieres  */
 .td1:hover{
-color: rgb(241, 246, 246);
-background: rgba(0, 255, 242, 0.568);
+ color: rgb(241, 246, 246);
+ background: rgba(2, 215, 204, 0.575);
 }
 .td2:hover{
-  color: rgb(241, 246, 246);
-  background: rgb(237 0 255 / 70%);
+ color: rgb(241, 246, 246);
+ background: rgba(176, 2, 189, 0.7);
   }
-  .td3:hover{
-    color: rgb(241, 246, 246);
-    background: rgba(0, 255, 76, 0.7);
+.td3:hover{
+  color: rgb(241, 246, 246);
+  background: rgba(3, 203, 63, 0.7);
     }
-    .td4:hover{
-      color: rgb(241, 246, 246);
-      background: rgba(255, 123, 0, 0.7);
+.td4:hover{
+  color: rgb(241, 246, 246);
+  background: rgba(199, 97, 3, 0.7);
       }
+  /* Design de la table des matieres  */
 
-h2{
-    margin: 0;
-}
+
+
+
 
 footer{
   color: white;
@@ -190,12 +329,12 @@ footer{
   font-size: 1.5vw;
 }
 
-/* @media screen and (max-width: 548px) {
-   .flexbox3 ul{
-    flex-direction: column;
-    align-items: center;
-   }
-} */
+
+
+
+
+
+        /* RESPONSIVES  */
 
 @media screen and (max-width: 437px) {
   .tableau-style{
@@ -211,6 +350,7 @@ min-width: 280px;
     letter-spacing: 4px;
   }  
 }
+
 @media screen and (max-width: 910px) {
     .flexbox3 li{
       font-size: 1.2rem;
@@ -218,12 +358,7 @@ min-width: 280px;
       width: 180px;
     }  
   }
-/* @media screen and (max-width: 814px) {
-    .flexbox2{
-      font-size: 3.8rem;
-      letter-spacing: 3.8px;
-    }  
-  } */
+
   @media screen and (max-width: 814px) {
     .flexbox3 li{
       font-size: 1.1rem;
@@ -231,13 +366,13 @@ min-width: 280px;
       width: 170px;
     }  
   }
+
   @media screen and (max-width: 778px) {
     .flexbox2{
-      /* font-size: 3.6rem;
-      letter-spacing: 3.6px; */
       text-shadow: 4px 4px 2px #000000ad;
     }  
   }
+
   @media screen and (max-width: 778px) {
     .flexbox3 li{
       font-size: 1rem;
@@ -245,32 +380,31 @@ min-width: 280px;
       width: 160px;
     }  
   }
+
   @media screen and (max-width: 1200px) {
     .flexbox1 {
       text-shadow: 4px 3px 2px #000000ad;
     }  
   }
+
   @media screen and (max-width: 1083px) {
     .flexbox1 {
       text-shadow: 5px 3px 2px #000000ad;
     }  
   }
+
   @media screen and (max-width: 915px) {
     .flexbox1 {
       text-shadow: 3px 3px 2px #000000ad;
     }  
   }
+
   @media screen and (max-width: 778px) {
     .flexbox1 {
       text-shadow: 3px 3px 2px #000000ad;
     }  
   }
- /* @media screen and (max-width: 744px) {
-    .flexbox2{
-      font-size: 3.4rem;
-      letter-spacing: 3.4px;
-    }  
-  } */
+
   @media screen and (max-width: 744px) {
     .flexbox3 li{
       font-size: 0.9rem;
@@ -278,12 +412,7 @@ min-width: 280px;
       width: 150px;
     }  
   }
- /* @media screen and (max-width: 710px) {
-    .flexbox2{
-      font-size: 3.2rem;
-      letter-spacing: 3.2px;
-    }  
-  } */
+
   @media screen and (max-width: 710px) {
     .flexbox3 li{
       font-size: 0.8rem;
@@ -291,12 +420,7 @@ min-width: 280px;
       width: 140px;
     }  
   }
- /* @media screen and (max-width: 674px) {
-    .flexbox2{
-      font-size: 3rem;
-      letter-spacing: 3px;
-    }  
-  } */
+
   @media screen and (max-width: 674px) {
     .flexbox3 li{
       font-size: 0.7rem;
@@ -304,22 +428,25 @@ min-width: 280px;
       width: 130px;
     }  
   }
+
  @media screen and (max-width: 640px) {
     .flexbox2{
-      /* font-size: 2.8rem; */
       text-shadow: 3px 3px 2px #000000ad;
     }  
   }
+
   @media screen and (max-width: 675px) {
     .flexbox1{
       text-shadow: 3px 2px 2px #000000ad;
     }  
   }
+
   @media screen and (max-width: 647px) {
     .flexbox1{
       text-shadow: 3px 1px 2px #000000ad;
     }  
   }
+
   @media screen and (max-width: 640px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -327,11 +454,7 @@ min-width: 280px;
       width: 120px;
     }  
   }
- /* @media screen and (max-width: 606px) {
-    .flexbox2{
-      font-size: 2.6rem;
-    }  
-  } */
+
   @media screen and (max-width: 606px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -339,11 +462,7 @@ min-width: 280px;
       width: 110px;
     }  
   }
-  /* @media screen and (max-width: 542px) {
-    .flexbox2{
-      font-size: 2.4rem;
-    }  
-  } */
+
   @media screen and (max-width: 542px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -351,11 +470,7 @@ min-width: 280px;
       width: 100px;
     }  
   }
-    /* @media screen and (max-width: 508px) {
-    .flexbox2{
-      font-size: 2.2rem;
-    }  
-  } */
+
   @media screen and (max-width: 508px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -363,11 +478,7 @@ min-width: 280px;
       width: 90px;
     }  
   }
-  /* @media screen and (max-width: 472px) {
-    .flexbox2{
-      font-size: 2rem;
-    }  
-  } */
+
   @media screen and (max-width: 472px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -377,10 +488,10 @@ min-width: 280px;
   }
     @media screen and (max-width: 438px) {
     .flexbox2{
-      /* font-size: 1.7rem; */
       text-shadow: 2px 2px 2px #000000ad;
     }  
   }
+
   @media screen and (max-width: 438px) {
     .flexbox3 li{
       font-size: 0.6rem;
@@ -388,176 +499,174 @@ min-width: 280px;
       width: 70px;
     }  
   }
-  /* @media screen and (max-width: 403px) {
-    .flexbox2{
-      font-size: 1.6rem;
-    }  
-  } */
+
   @media screen and (max-width: 404px) {
     .flexbox1{
       text-shadow: 2px 1px 2px #000000ad;
     }  
   }
+
   @media screen and (max-width: 403px) {
     .flexbox3 li{
-      font-size: 0.6rem;
-      height: 70px;
-      width: 70px;
+      font-size: 0.5rem;
+      height: 60px;
+      width: 60px;
     }  
   }
-    /* @media screen and (max-width: 368px) {
-    .flexbox2{
-      font-size: 1.4rem;
-    }  
-  } */
-  @media screen and (max-width: 368px) {
+
+  @media screen and (max-width: 373px) {
     .flexbox3 li{
-      font-size: 0.6rem;
-      height: 70px;
-      width: 70px;
+      font-size: 0.5rem;
+      height: 55px;
+      width: 55px;
     }  
+    .flexbox3 ul{
+      justify-content: center;
+    }
   }
-/* @media screen and (max-width: 351px) {
-.flexbox2{
-  font-size: 1.2rem;
-}  
-} */
-/* @media screen and (max-width: 333px) {
-    .flexbox2{
-      font-size: 1.1rem;
-    }  
-    } */
+
     @media screen and (max-width: 333px) {
         .flexbox3 li{
           font-size: 0.5rem;
-          height: 70px;
-          width: 70px;
+          height: 50px;
+          width: 50px;
         }  
       }
+
       @media screen and (max-width: 716px) {
         .flexbox{
             font-size: 2.6rem;
             letter-spacing: 4.3px;
         }  
       }
+
   @media screen and (max-width: 705px) {
     .flexbox{
         font-size: 2.4rem;
         letter-spacing: 4.3px;
     }  
   }
+
     @media screen and (max-width: 657px) {
     .flexbox{
         font-size: 2.2rem;
         letter-spacing: 4.1px;
     }  
   }
+
   @media screen and (max-width: 627px) {
     .flexbox4 li{
         letter-spacing: 2px;
         font-size: 1rem;
     }  
   }
+
   @media screen and (max-width: 608px) {
     .flexbox{
         font-size: 2rem;
         letter-spacing: 3.9px;
     }  
   }
+
      @media screen and (max-width: 603px) {
     .flexbox4 li{
       letter-spacing: 1.8px;
       font-size: 0.9rem;
     }  
   }
+
      @media screen and (max-width: 559px) {
     .flexbox{
         font-size: 1.8rem;
         letter-spacing: 3.7px;
     }  
   }
+
   @media screen and (max-width: 549px) {
     .flexbox4 li{
       letter-spacing: 1.6px;
       font-size: 0.7rem;
     }  
   }
+
      @media screen and (max-width: 511px) {
     .flexbox{
       font-size: 1.6rem;
     }  
   }
+
      @media screen and (max-width: 468px) {
     .flexbox{
       font-size: 1.4rem;
     }  
   }
+
   @media screen and (max-width: 457px) {
     .flexbox4 li{
       letter-spacing: 1.5px;
       font-size: 0.6rem;
     }  
   }
+
   @media screen and (max-width: 421px) {
     .flexbox{
       font-size: 1.2rem;
     }  
   }
+
   @media screen and (max-width: 411px) {
     .flexbox4 li{
       letter-spacing: 1.2px;
       font-size: 0.5rem;
     }  
   }
+
   @media screen and (max-width: 376px) {
     .flexbox{
       font-size: 1rem;
     }  
   }
+
   @media screen and (max-width: 357px) {
     .flexbox4 li{
       letter-spacing: 1.2px;
       font-size: 0.4rem;
     }  
   }
+
   @media screen and (max-width: 333px) {
     .flexbox{
       font-size: 0.9rem;
     }  
   }
+
   @media screen and (max-width: 315px) {
     .flexbox4 li{
       letter-spacing: 1.2px;
       font-size: 0.4rem;
     }  
   }
+
   @media screen and (max-width: 309px) {
     .flexbox{
       font-size: 0.7rem;
     }  
   }
-  /* @media screen and (max-width: 281px) {
-    .flexbox2{
-      font-size: 1rem;
-    }  
-    } */
-    @media screen and (max-width: 265px) {
+ 
+   @media screen and (max-width: 265px) {
       .flexbox{
         font-size: 0.6rem;
       }  
     }
-    @media screen and (max-width: 304px) {
+
+   @media screen and (max-width: 304px) {
       .flexbox4 li{
         letter-spacing: 1.2px;
         font-size: 0.3rem;
       }  
     }
-    /* @media screen and (max-width: 265px) {
-      .flexbox2{
-        font-size: 0.9rem;
-      }  
-      } */
-      @media screen and (max-width: 267px) {
+  
+  @media screen and (max-width: 267px) {
         .flexbox4 li{
           letter-spacing: 1.2px;
           font-size: 0.2rem;
