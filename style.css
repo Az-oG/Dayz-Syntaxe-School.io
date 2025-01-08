@@ -42,8 +42,8 @@
 
     /* styles "presentation/contact/photos/formulaire"  */
 .flexbox3 li {
-    height: 180px;
-    width: 180px;
+    height: 135px;
+    width: 135px;
     margin: 10px;
     text-align: center;
     font-size:1.3rem;
@@ -92,32 +92,32 @@
 
 /* LARGEUR des labels pour qu'ils puissent prendre la même dimension que les inputs lorsqu'on survole ceux-ci  */
 .Présentation{
-  width: 180px;
-  height: 180px;
+  width: 135px;
+  height: 135px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.2s;
 }
 .Contact{
-  width: 180px;
-  height: 180px;
+  width: 135px;
+  height: 135px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.2s;
 }
 .Photos{
-  width: 180px;
-  height: 180px;
+  width: 135px;
+  height: 135px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.2s;
 }
 .Formulaire{
-  width: 180px;
-  height: 180px;
+  width: 135px;
+  height: 135px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,6 +193,7 @@
   background-color: rgba(240, 248, 255, 0.77);
   border-radius: 15px 15px 15px 15px;
   padding : 0;
+  margin-bottom: 2em;
 }
 .grid-container {
   display: flex;
@@ -354,16 +355,16 @@ min-width: 280px;
 @media screen and (max-width: 910px) {
     .flexbox3 li{
       font-size: 1.2rem;
-      height: 180px;
-      width: 180px;
+      height: 135px;
+      width: 135px;
     }  
   }
 
   @media screen and (max-width: 814px) {
     .flexbox3 li{
       font-size: 1.1rem;
-      height: 170px;
-      width: 170px;
+      height: 130px;
+      width: 130px;
     }  
   }
 
@@ -376,8 +377,8 @@ min-width: 280px;
   @media screen and (max-width: 778px) {
     .flexbox3 li{
       font-size: 1rem;
-      height: 160px;
-      width: 160px;
+      height: 120px;
+      width: 120px;
     }  
   }
 
@@ -408,24 +409,24 @@ min-width: 280px;
   @media screen and (max-width: 744px) {
     .flexbox3 li{
       font-size: 0.9rem;
-      height: 150px;
-      width: 150px;
+      height: 110px;
+      width: 110px;
     }  
   }
 
   @media screen and (max-width: 710px) {
     .flexbox3 li{
       font-size: 0.8rem;
-      height: 140px;
-      width: 140px;
+      height: 100px;
+      width: 100px;
     }  
   }
 
   @media screen and (max-width: 674px) {
     .flexbox3 li{
       font-size: 0.7rem;
-      height: 130px;
-      width: 130px;
+      height: 90px;
+      width: 90px;
     }  
   }
 
@@ -450,40 +451,40 @@ min-width: 280px;
   @media screen and (max-width: 640px) {
     .flexbox3 li{
       font-size: 0.6rem;
-      height: 120px;
-      width: 120px;
+      height: 80px;
+      width: 80px;
     }  
   }
 
   @media screen and (max-width: 606px) {
     .flexbox3 li{
       font-size: 0.6rem;
-      height: 110px;
-      width: 110px;
+      height: 70px;
+      width: 70px;
     }  
   }
 
   @media screen and (max-width: 542px) {
     .flexbox3 li{
       font-size: 0.6rem;
-      height: 100px;
-      width: 100px;
+      height: 70px;
+      width: 70px;
     }  
   }
 
   @media screen and (max-width: 508px) {
     .flexbox3 li{
       font-size: 0.6rem;
-      height: 90px;
-      width: 90px;
+      height: 70px;
+      width: 70px;
     }  
   }
 
   @media screen and (max-width: 472px) {
     .flexbox3 li{
       font-size: 0.6rem;
-      height: 80px;
-      width: 80px;
+      height: 70px;
+      width: 70px;
     }  
   }
     @media screen and (max-width: 438px) {
@@ -508,17 +509,17 @@ min-width: 280px;
 
   @media screen and (max-width: 403px) {
     .flexbox3 li{
-      font-size: 0.5rem;
-      height: 60px;
-      width: 60px;
+      font-size: 0.6rem;
+      height: 65px;
+      width: 65px;
     }  
   }
 
-  @media screen and (max-width: 373px) {
+  @media screen and (max-width: 365px) {
     .flexbox3 li{
-      font-size: 0.5rem;
-      height: 55px;
-      width: 55px;
+      font-size: 0.6rem;
+      height: 60px;
+      width: 60px;
     }  
     .flexbox3 ul{
       justify-content: center;
@@ -527,9 +528,9 @@ min-width: 280px;
 
     @media screen and (max-width: 333px) {
         .flexbox3 li{
-          font-size: 0.5rem;
-          height: 50px;
-          width: 50px;
+          font-size: 0.6rem;
+          height: 60px;
+          width: 60px;
         }  
       }
 
