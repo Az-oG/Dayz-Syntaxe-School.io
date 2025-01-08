@@ -185,7 +185,7 @@ background-attachment: fixed;
   border:  rgba(241, 94, 182, 0.47);
   display: grid;
   width: 3%;
-  height: 3%;
+  height: 27px;
   justify-content: center;
   align-content: stretch;
 }
