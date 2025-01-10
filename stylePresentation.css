@@ -87,9 +87,9 @@ min-height: 100vh;
 background-attachment: fixed;
 } 
 .titre1{
+  font-size: 4em;
   text-align: center;
   text-transform: uppercase;
-  font-size: 3rem;
   color: rgb(32 220 171);
   text-shadow: 0px 0px 9px rgb(113 12 12 / 84%);
 }
@@ -99,10 +99,11 @@ background-attachment: fixed;
   border-radius: 15px 15px 15px 15px;
   border: 2px solid rgb(10 225 134 / 58%);
   box-shadow: 3px 2px 20px 5px rgb(241 171 171 / 51%);
+  margin-bottom: 150em;
 }
 
 .titre2 {
-  font-size: 2rem;
+  font-size: 1.2em;
   text-transform: lowercase;
   margin: 0;
 }
@@ -123,42 +124,43 @@ background-attachment: fixed;
   font-weight: weight;
   font-style: normal;
   color: rgb(241 243 19 / 82%);
+  font-size: 1.5em;
 } 
 .titreParagraphe1 {
-  font-size: 1.7rem;
+  font-size: 2em;
   color: rgb(225 184 111 / 78%);
 }
 .partie1{
   color: rgb(223 207 134 / 90%);
-  font-size: 1.4rem;
+  font-size: 1.3em;
 } 
 .partie2{
   color: rgb(238 236 182 / 89%);
-  font-size: 1.4rem;
+  font-size: 1.3em;
 }
 .partie3{
   color: rgb(255 254 217 / 84%);
-  font-size: 1.4rem;
+  font-size: 1.3em;
 }
 .partie4{
   color: rgb(236 206 88 / 80%);
-  font-size: 1.4rem;
+  font-size: 1.3em;
 }
 .partie5{
   color: rgb(223 207 134 / 90%);
-  font-size: 1.4rem;
+  font-size: 1.3em;
 }
 .partie6{
   color: rgb(238 236 182 / 89%);
-  font-size: 1.4rem;
+  font-size: 1.3em;
 }
 .partie7{
   color: rgb(255 254 217 / 84%);
-  font-size: 1.4rem;
+  font-size: 1.3em;
 }
 
 .titre2Paragraphe2{
-  font-size: 1.7rem;
+  font-size: 1.7em;
   color: rgb(34 226 191);
   text-decoration: underline #b5ffbf;
   text-decoration-style: double;
@@ -166,13 +168,13 @@ background-attachment: fixed;
 }
 
 .GestionComplete{
-  font-size: 1.4rem;
+  font-size: 1.3em;
 }
 .PreparationComplete{
-  font-size: 1.4rem;
+  font-size: 1.3em;
 }
 .ReglageComplet{
-  font-size: 1.4rem;
+  font-size: 1.3em;
 }
 
 .paragraphe2 h2{
@@ -205,8 +207,11 @@ background-attachment: fixed;
    box-shadow: -1px 0px 10px 5px rgba(254, 251, 251, 0.689);
   padding: 0 auto;
   letter-spacing: 1.5px;
+  min-height: 90vh;
 }
-
+.parapgraphe3{
+  font-size: 1.2em;
+}
 
 
 
@@ -280,9 +285,12 @@ background-attachment: fixed;
 }
 @media screen and (max-width: 345px) {
   .en_Arriere1 {
-    width: 14.5%;
+    width: 13.5%;
   } 
 }
+
+
+
 
 @media screen and (max-width: 910px) {
     .flexbox3 li{
@@ -388,166 +396,304 @@ background-attachment: fixed;
       height: 55px;
       width: 55px;
     }  
- 
+  }
+
+
+
+
+
+  @media screen and (max-width: 6684px){
+    .titre2{
+      font-size: 1.1em;
+    } 
+  }
   @media screen and (max-width: 649px) {
     .titre1{
-      font-size: 2.9rem;
+      font-size: 3.5em;
     }  
-  }
-  @media screen and (max-width: 649px) {
     .titre2{
-      font-size: 1.9rem;
+      font-size: 1.1em;
     }  
+    .titreParagraphe1 {
+      font-size: 1.5em;
+    }
+    .titre2Paragraphe2{
+      font-size: 1.5em;
+    }
+    .GestionComplete{
+      font-size: 1em;
+    }
+    .PreparationComplete{
+      font-size: 1em;
+    }
+    .ReglageComplet{
+      font-size: 1em;
+    }
+    .partie1 {
+      font-size: 1em;
+    }
+    .partie2{
+      font-size: 1em;
+    }
+    .partie3{
+      font-size: 1em;
+    }
+    .partie4 {
+      font-size: 1em;
+    }
+    .partie5{
+      font-size: 1em;
+    }
+    .partie6{
+      font-size: 1em;
+    }
+    .partie7{
+      font-size: 1em;
+    }
   }
+
+
+
+
   @media screen and (max-width: 629px) {
     .titre1{
-      font-size: 2.8rem;
+      font-size: 3.4em;
     }  
-  }
-  @media screen and (max-width: 629px) {
     .titre2{
-      font-size: 1.8rem;
+      font-size: 1em;
     }  
+    .titreParagraphe1 {
+      font-size: 1.4em;
+    }
+    .titre2Paragraphe2{
+      font-size: 1.4em;
+    }
+    .GestionComplete{
+      font-size: 0.9em;
+    }
+    .PreparationComplete{
+      font-size: 0.9em;
+    }
+    .ReglageComplet{
+      font-size: 0.9em;
+    }
+    .partie1 {
+      font-size: 0.9em;
+    }
+    .partie2{
+      font-size: 0.9em;
+    }
+    .partie3{
+      font-size: 0.9em;
+    }
+    .partie4 {
+      font-size: 0.9em;
+    }
+    .partie5{
+      font-size: 0.9em;
+    }
+    .partie6{
+      font-size: 0.9em;
+    }
+    .partie7{
+      font-size: 0.9em;
+    }
   }
+
+
+
+
   @media screen and (max-width: 609px) {
     .titre1{
-      font-size: 2.7rem;
+      font-size: 3.3em;
     }  
-  }
-  @media screen and (max-width: 609px) {
     .titre2{
-      font-size: 1.7rem;
-    }  
+      font-size: 1em;
+    } 
+    .titreParagraphe1 {
+      font-size: 1.3em;
+    }
+    .titre2Paragraphe2{
+      font-size: 1.3em;
+    }
   }
+
+
+
   @media screen and (max-width: 589px) {
     .titre1{
-      font-size: 2.6rem;
+      font-size: 3.2em;
     }  
-  }
-  @media screen and (max-width: 589px) {
     .titre2{
-      font-size: 1.6rem;
+      font-size: 1em;
     }  
+    .titreParagraphe1 {
+      font-size: 1.2em;
+    }
+    .titre2Paragraphe2{
+      font-size: 1.2em;
+    }
   }
+
+
+
   @media screen and (max-width: 569px) {
     .titre1{
-      font-size: 2.5rem;
+      font-size: 2.5em;
     }  
-  }
-  @media screen and (max-width: 569px) {
     .titre2{
-      font-size: 1.5rem;
-    }  
+      font-size: 1em;
+    } 
+    .titreParagraphe1 {
+      font-size: 1.1em;
+    }
+    .titre2Paragraphe2{
+      font-size: 1.1em;
+    }
   }
+
+
+
   @media screen and (max-width: 549px) {
     .titre1{
-      font-size: 2.4rem;
-    }  
-  }
-  @media screen and (max-width: 549px) {
+      font-size: 2.4em;
+    } 
     .titre2{
-      font-size: 1.4rem;
+      font-size: 1em;
     }  
   }
+
+
+
   @media screen and (max-width: 527px) {
     .titre1{
-      font-size: 2.3rem;
+      font-size: 2.3em;
     }  
-  }
-  @media screen and (max-width: 527px) {
     .titre2{
-      font-size: 1.3rem;
-    }  
+      font-size: 1em;
+    } 
+    .GestionComplete{
+      font-size: 0.8em;
+    }
+    .PreparationComplete{
+      font-size: 0.8em;
+    }
+    .ReglageComplet{
+      font-size: 0.8em;
+    }
+    .partie1 {
+      font-size: 0.8em;
+    }
+    .partie2{
+      font-size: 0.8em;
+    }
+    .partie3{
+      font-size: 0.8em;
+    }
+    .partie4 {
+      font-size: 0.8em;
+    }
+    .partie5{
+      font-size: 0.8em;
+    }
+    .partie6{
+      font-size: 0.8em;
+    }
+    .partie7{
+      font-size: 0.8em;
+    }
   }
+
+
+
   @media screen and (max-width: 507px) {
     .titre1{
-      font-size: 2.2rem;
+      font-size: 2.2em;
     }  
-  }
-  @media screen and (max-width: 507px) {
     .titre2{
-      font-size: 1.2rem;
-    }  
+      font-size: 1em;
+    } 
+      .titreParagraphe1 {
+      font-size: 1em;
+    }
+    .titre2Paragraphe2{
+      font-size: 1em;
+    }
   }
+
+
+
   @media screen and (max-width: 487px) {
     .titre1{
-      font-size: 2.1rem;
-    }  
-  }
-  @media screen and (max-width: 487px) {
+      font-size: 2.1em;
+    } 
     .titre2{
-      font-size: 1.1rem;
+      font-size: 1em;
     }  
+    .titreParagraphe1 {
+      font-size: 0.9em;
+    }
+    .titre2Paragraphe2{
+      font-size: 0.9em;
+    }
   }
+
+
+
   @media screen and (max-width: 465px) {
     .titre1{
-      font-size: 2rem;
+      font-size: 2em;
     }  
-  }
-  @media screen and (max-width: 465px) {
     .titre2{
-      font-size: 1rem;
-    }  
+      font-size: 1em;
+    } 
   }
+
+
+
   @media screen and (max-width: 445px) {
     .titre1{
-      font-size: 1.9rem;
+      font-size: 1.9em;
     }  
-  }
-  @media screen and (max-width: 445px) {
     .titre2{
-      font-size: 0.9rem;
-    }  
+      font-size: 0.9em;
+    } 
   }
+
+
+
   @media screen and (max-width: 425px) {
     .titre1{
-      font-size: 1.8rem;
-    }  
-  }
-  @media screen and (max-width: 425px) {
+      font-size: 1.8em;
+    } 
     .titre2{
-      font-size: 0.8rem;
+      font-size: 0.8em;
     }  
   }
-  @media screen and (max-width: 405px) {
-    .titre1{
-      font-size: 1.7rem;
-    }  
-  }
+
+
+
   @media screen and (max-width: 405px) {
     .titre2{
-      font-size: 0.8rem;
-    }  
+      font-size: 0.8em;
+    }   
   }
-  @media screen and (max-width: 385px) {
-    .titre1{
-      font-size: 1.6rem;
-    }  
-  }
-  @media screen and (max-width: 385px) {
+
+
+
+  @media screen and (max-width: 395px) {
     .titre2{
-      font-size: 0.8rem;
-    }  
-  }
-  @media screen and (max-width: 363px) {
-    .titre1{
-      font-size: 1.5rem;
-    }  
-  }
-  @media screen and (max-width: 343px) {
-    .titre1{
-      font-size: 1.4rem;
-    }  
-  }
-  @media screen and (max-width: 323px) {
-    .titre1{
-      font-size: 1.3rem;
+      font-size: 0.8em;
     }  
   }
 
 
 
-}
+
+
+
+
+
 
 
 
