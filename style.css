@@ -21,7 +21,11 @@
 
 
 
+.background{
+  background-color: rgba(94 151 135 / 77%); 
+  border-radius:15px;
 
+}
 
 
 
@@ -32,7 +36,7 @@
     justify-content: space-around;
     /* background-color: rgba(240, 248, 255, 0.77); */
     border-radius: 15px;
-    margin-bottom: 5em;
+    margin-bottom: 8em;
 }
 
 
@@ -200,26 +204,28 @@
    display: grid;
     grid-template-columns: 30% 30%;
     justify-content: center;
+    /* background-color: rgba(94 151 135 / 77%); */
 }
   
 .grid-container2 img  {
   display: flex;
-  width: 100%;
-  max-width: 240px;
+  width: 90%;
+  max-width: 230px;
   align-items: center;
   margin: 0 auto;
   background-color: rgba(240, 248, 255, 0.77);
   border-radius: 15px;
   padding : 0;
-  margin-bottom: 5em;
 }
 .grid-container2{
   display: grid;
-  grid-template-columns: 20% 20%;
-  margin-bottom: 22rem;
+  grid-template-columns: 27% 27%;
+  margin-bottom: 8em;
   justify-items: center;
-  align-content: space-evenly;
-  justify-content: space-evenly;
+  align-content: space-around;
+  /* background-color: rgba(94 151 135 / 77%); */
+  justify-content: center;
+  /* background-color: rgba(94 151 135 / 77%); */
 }
 
 
@@ -234,7 +240,7 @@ h1{
     font-family: "Lakki Reddy", sans-serif;
     font-weight: 400;
     border-radius:15px;
-    background-color: rgba(94 151 135 / 77%);
+    /* background-color: rgba(94 151 135 / 77%); */
     margin: none;
 }
 
@@ -245,7 +251,7 @@ p{
     color: rgb(209 230 214 / 90%);
     /* centrer une boite */
     margin: 0 auto;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 
 
