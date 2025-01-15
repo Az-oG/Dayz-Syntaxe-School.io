@@ -32,7 +32,7 @@
     justify-content: space-around;
     /* background-color: rgba(240, 248, 255, 0.77); */
     border-radius: 15px;
-    margin-bottom: 15rem;
+    margin-bottom: 10em;
 }
 
 
@@ -187,23 +187,40 @@
 
 
 .grid-container img {
-  width: 25%;
+  width: 70%;
+  max-width: 150px;
   align-items: center;
   margin: 0 auto;
   background-color: rgba(240, 248, 255, 0.77);
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px;
   padding : 0;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .grid-container {
-  display: flex;
-  flex-wrap: wrap;
+   display: grid;
+    grid-template-columns: 30% 30%;
     justify-content: center;
-    flex-direction: column-reverse;
-    margin-bottom: 15rem;
 }
   
-
+.grid-container2 img  {
+  display: flex;
+  width: 100%;
+  max-width: 240px;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgba(240, 248, 255, 0.77);
+  border-radius: 15px;
+  padding : 0;
+  margin-bottom: 5em;
+}
+.grid-container2{
+  display: grid;
+  grid-template-columns: 20% 20%;
+  margin-bottom: 22rem;
+  justify-items: center;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+}
 
 
 h1{
@@ -211,15 +228,14 @@ h1{
     letter-spacing: 4.5px;
     text-align: center;
     /* les tailles de police doivent etre en "rem" */
-    font-size: 8vw; /* vw = taille d'un texte en fonction de l'ecran de l'utilisateur */
+    font-size: 12vh; /* ⚠️vw⚠️ = taille d'un texte en fonction de l'ecran de l'utilisateur */
     text-shadow: 5px 5px 2px #000000ad;
     color: rgb(209 230 214 / 90%);
     font-family: "Lakki Reddy", sans-serif;
     font-weight: 400;
-    border-radius: 15px 15px 15px 15px;
+    border-radius:15px;
     background-color: rgba(94 151 135 / 77%);
     margin: none;
-    margin-bottom: 10rem;
 }
 
 p{
@@ -229,27 +245,10 @@ p{
     color: rgb(209 230 214 / 90%);
     /* centrer une boite */
     margin: 0 auto;
-    margin-bottom: 20rem;
+    margin-bottom: 4em;
 }
 
-.grid-container2 img  {
-  width: 25%;
-  align-items: center;
-  margin: 0 auto;
-  background-color: rgba(240, 248, 255, 0.77);
-  border-radius: 15px;
-  padding : 0;
-  margin-bottom: 2rem;
-}
-.grid-container2{
-  display: flex;
-  flex-direction: column-reverse;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: stretch;
-    flex-wrap: nowrap;
-    margin-bottom: 22rem;
-}
+
 
 .tableau-style{
   border-collapse: separate;
@@ -327,7 +326,7 @@ tbody tr, td, th {
 footer{
   color: white;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 1.5vh;
 }
 
 
