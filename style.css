@@ -24,7 +24,7 @@
 .background{
   background-color: rgba(94 151 135 / 77%); 
   border-radius:15px;
-
+  background-color: rgba(41, 70, 62, 0.627);
 }
 
 
@@ -54,7 +54,8 @@
     font-family: "Righteous";
     text-transform: capitalize;
     list-style: none;
-    background-color: rgba(94 151 135 / 77%);
+    /* background-color: rgba(94 151 135 / 77%); */
+    background-color: rgba(41, 70, 62, 0.627);
     justify-content: center;
     border-radius: 15px;
     /* centrer un unique element verticalement et horizontalement */
@@ -82,7 +83,8 @@
 
 /* couleur et epaisseur des labels "presentation/contact/photos/formulaire"  */
 * a{
-  color: #2f0366c8;
+  /* color: #2f0366c8; */
+  color: #00000086;
   font-weight: 550;
 }
 /* couleur et epaisseur des labels "presentation/contact/photos/formulaire"  */
@@ -195,7 +197,7 @@
   max-width: 150px;
   align-items: center;
   margin: 0 auto;
-  background-color: rgba(240, 248, 255, 0.77);
+  /* background-color: rgba(240, 248, 255, 0.337); */
   border-radius: 15px;
   padding : 0;
   margin-bottom: 1em;
@@ -213,7 +215,7 @@
   max-width: 230px;
   align-items: center;
   margin: 0 auto;
-  background-color: rgba(240, 248, 255, 0.77);
+  /* background-color: rgba(240, 248, 255, 0.156); */
   border-radius: 15px;
   padding : 0;
 }
@@ -235,20 +237,22 @@ h1{
     text-align: center;
     /* les tailles de police doivent etre en "rem" */
     font-size: 12vh; /* ⚠️vw⚠️ = taille d'un texte en fonction de l'ecran de l'utilisateur */
-    text-shadow: 5px 5px 2px #000000ad;
-    color: rgb(209 230 214 / 90%);
+    text-shadow: 5px 5px 2px #00000086;
+    /* color: rgb(209 230 214 / 90%); */
+    color: #b783f618;
     font-family: "Lakki Reddy", sans-serif;
     font-weight: 400;
     border-radius:15px;
-    /* background-color: rgba(94 151 135 / 77%); */
+    /* background-color: rgba(41, 70, 62, 0.627); */
     margin: none;
 }
 
 p{
     text-transform:lowercase;
     letter-spacing: 1.5px;
-    text-shadow: 5px 5px 2px #000000b8;
-    color: rgb(209 230 214 / 90%);
+    text-shadow: 5px 5px 2px #00000086;
+    /* color: rgb(209 230 214 / 90%); */
+    color: #b783f618;
     /* centrer une boite */
     margin: 0 auto;
     margin-bottom: 3em;
@@ -271,7 +275,7 @@ p{
 thead th {
   text-transform: uppercase;
   font-size: 1.5rem;
-  background-color: rgba(17, 17, 166, 0.741);
+  background-color: rgba(17, 17, 166, 0.284);
   color: #b1f8fe;
   text-align: center;
 }
@@ -284,7 +288,7 @@ thead th {
 /* Table des matieresLabel "cours de syntaxes/reglage serveurs/corrections fichiers/realisation mapping" */
 td {
   cursor: pointer;
-  background-color: rgba(245, 245, 220, 0.489);
+  background-color: rgba(245, 245, 220, 0.374);
   color: #02079c;
 }
 /* Table des matieresLabel "cours de syntaxes/reglage serveurs/corrections fichiers/realisation mapping" */
