@@ -22,7 +22,6 @@
 
 
 .background{
-  background-color: rgba(94 151 135 / 77%); 
   border-radius:15px;
   background-color: rgba(41, 70, 62, 0.627);
 }
@@ -41,9 +40,6 @@
 
 .flexbox3 ul :hover{
   transform: rotate(360deg);
-  transition: 2s;
-  overflow: hidden ;
-
 }
 
 
@@ -67,7 +63,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.2s;
+    transition: transform 2s .2s;
+    overflow: hidden;
+    
     /* centrer un unique element verticalement et horizontalement */
 }
  /* styles "presentation/contact/photos/formulaire"  */
@@ -108,31 +106,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s;
 }
+
 .Contact{
   width: 135px;
   height: 135px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  transition: 0.2s;
+  align-items: center; 
 }
+
 .Photos{
   width: 135px;
   height: 135px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  transition: 0.2s;
+  align-items: center; 
 }
+
 .Formulaire{
   width: 135px;
   height: 135px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s;
 }
 /* LARGEUR des labels pour qu'ils puissent prendre la même dimension que les inputs lorsqu'on survole ceux-ci  */
 
