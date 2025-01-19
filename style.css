@@ -226,7 +226,7 @@
  text-decoration-line: underline overline;
  text-decoration-style: double  ;
  text-decoration-color: #e1ff00;
- text-shadow: #0e05fe 2px 0px 20px;
+ text-shadow: 3px 3px 2px #000001, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 @keyframes text{
