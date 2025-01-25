@@ -13,6 +13,9 @@
     margin-bottom: 15em;
 
 }
+.flexbox3 ul :hover{
+  transform: rotate(360deg);
+}
 
 .flexbox3 li {
     height: 135px;
@@ -25,12 +28,13 @@
     list-style: none;
     background-color: rgba(240, 248, 255, 0.77);
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 15px 15px 15px 15px;
     /* centrer un unique element verticalement et horizontalement */
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.2s;
+    transition: transform 2s .2s;
+    overflow: hidden;
     /* centrer un unique element verticalement et horizontalement */
 
 }
@@ -43,7 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s;
+  
 }
 
 .li2:hover {
@@ -55,7 +59,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s;
+  
 }
 
 .li3:hover {
@@ -67,7 +71,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s;
+ 
 }
 
 .li4:hover {
@@ -79,7 +83,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s;
+  
 }
 body{
 background: url(./chalk-1150753.jpg) center/cover;
@@ -96,7 +100,7 @@ background-attachment: fixed;
 
 .back1{
    background-color: rgba(12 113 101 / 88%);
-  border-radius: 15px;
+  border-radius: 15px 15px 15px 15px;
   border: 2px solid rgb(10 225 134 / 58%);
   box-shadow: 3px 2px 20px 5px rgb(241 171 171 / 51%);
   margin-bottom: 150em;
