@@ -636,14 +636,7 @@ min-width: 280px;
     }
   }
 
-    @media screen and (max-width: 333px) {
-        .flexbox3 li{
-          font-size: 0.6rem;
-          height: 60px;
-          width: 60px;
-        }  
-      }
-
+ 
       @media screen and (max-width: 716px) {
         .text1{
           font-size: 38px;
