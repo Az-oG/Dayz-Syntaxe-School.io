@@ -765,16 +765,18 @@ min-width: 280px;
      @media screen and (max-width: 468px) {
       .text1{
         font-size: 23px;
+        letter-spacing: 4px;
         box-shadow: 0px -19px 0px  rgb(4, 0, 0);  
         border-radius: 2px;
       } 
       @keyframes text{
         0%{
+          letter-spacing: 2px;
          color: white;
             margin-bottom: -40px;
         }
         30%{
-            letter-spacing: 8px;
+            letter-spacing: 5px;
             margin-bottom: -40px;
         }
         80%{
@@ -797,10 +799,26 @@ min-width: 280px;
   @media screen and (max-width: 421px) {
     .text1{
       font-size: 22px;
+      letter-spacing: 2px;
     }  
     .text2{
       font-size: 15px;
     }  
+    @keyframes text{
+      0%{
+        letter-spacing: 0.2px;
+       color: white;
+          margin-bottom: -40px;
+      }
+      30%{
+         letter-spacing: 2px;
+          margin-bottom: -40px;
+      }
+      80%{
+          letter-spacing: 0.2px;
+          margin-bottom: -40px; 
+      }
+      } 
   }
 
   @media screen and (max-width: 411px) {
@@ -812,11 +830,30 @@ min-width: 280px;
 
   @media screen and (max-width: 376px) {
      .text1{
+      letter-spacing: 1.5px;
       font-size: 21px;
     }  
     .text2{
-      font-size: 14px;
+      font-size: 13.5px;
+      text-decoration-style: double ;
+      text-decoration-line: underline;
+      text-shadow: 1px 2px 10px #000001, 0px 2px 0em blue, -1px 1px 0em blue;
     }  
+    @keyframes text{
+      0%{
+        letter-spacing: 0.2px;
+       color: white;
+          margin-bottom: -40px;
+      }
+      30%{
+         letter-spacing: 1.5px;
+          margin-bottom: -40px;
+      }
+      80%{
+          letter-spacing: 0.2px;
+          margin-bottom: -40px; 
+      }
+      } 
   }
 
   @media screen and (max-width: 357px) {
@@ -828,14 +865,15 @@ min-width: 280px;
 
   @media screen and (max-width: 333px) {
     .text1{
-      font-size: 19px;
+      font-size: 21px;
+      letter-spacing: 1.5px;
       border-radius: 1px;
     }  
     .text2{
       font-size: 13px;
       text-decoration-style: double ;
       text-decoration-line: underline;
-      text-shadow: 5px 5px 10px #000001, 0 0 0.50em blue, 0 0 0.50em blue;
+      text-shadow: 1px 2px 10px #000001, 0px 2px 0em blue, -1px 1px 0em blue;
     }  
     @keyframes text{
       0%{
@@ -844,7 +882,7 @@ min-width: 280px;
           margin-bottom: -40px;
       }
       30%{
-         letter-spacing: 1px;
+         letter-spacing: 1.5px;
           margin-bottom: -40px;
       }
       80%{
@@ -852,7 +890,7 @@ min-width: 280px;
           margin-bottom: -40px; 
       }
       } 
-  }
+    }
 
   @media screen and (max-width: 315px) {
     .flexbox4 li{
