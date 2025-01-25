@@ -20,6 +20,9 @@
     /* background-color: rgba(240, 248, 255, 0.77); */
     border-radius: 15px;
 }
+.flexbox ul :hover{
+    transform: rotate(360deg);
+  }
 
 .flexbox li {
     height: 135px;
@@ -36,7 +39,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.2s;
+    transition: transform 2s .2s;
+    overflow: hidden;
     /* centrer un unique element verticalement et horizontalement */
 }
 .li1:hover {
@@ -48,7 +52,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s;
+  
 }
 .index:hover{
     color: white;
@@ -69,7 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s;
+
 }
 .page02{
     color: #304ffe;
@@ -90,7 +94,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s;
+  
 }
   .page03{
       color: #d84315;
@@ -108,7 +112,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2s;
+ 
 }
 
 .page04{
