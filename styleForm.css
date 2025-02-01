@@ -1,9 +1,132 @@
+
+
+.flexbox3 ul{
+  padding: 0;
+  /* display flex= positionne les differentes boites */
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rgba(240, 248, 255, 0.77); */
+  border-radius: 15px;
+  margin-bottom: 40em;
+  width: 1250px;
+}
+
+
+.flexbox3 ul :hover{
+transform: rotate(360deg);
+}
+.Présentation{
+  width: 135px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contact{
+  width: 135px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.Photos{
+  width: 135px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.Formulaire{
+  width: 135px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* changement de couleur pour les labels lors du survolage de la souris "presentation/contact/photos/Formulaire"*/
+.flexbox3 li :hover{
+  color: beige;
+}
+ /* changement de couleur pour les labels lors du survolage de la souris "presentation/contact/photos/Formulaire"*/
+
+
+
+
+
+
+
+/* couleur du hover "presentation"  */
+.li1:hover {
+  background: rgba(249, 123, 219, 0.716);
+}
+/* couleur du hover "presentation"  */
+
+
+
+
+
+ /* couleur du hover "contact"  */
+.li2:hover {
+  background: rgba(246, 234, 68, 0.716);
+}
+/* couleur du hover "contact"  */
+
+
+
+
+/* couleur du hover "photos"  */
+.li3:hover {
+  background: rgba(244, 53, 53, 0.716);
+}
+/* couleur du hover "photos"  */
+/* couleur du hover "Formulaire"  */
+.li4:hover {
+  background: rgba(95, 62, 241, 0.716);
+}
+/* couleur du hover "Formulaire"  */
+
+  /* styles "presentation/contact/photos/formulaire"  */
+.flexbox3 li {
+  height: 135px;
+  width: 135px;
+  margin: 10px;
+  text-align: center;
+  font-size:1.3rem;
+  font-family: "Righteous";
+  text-transform: capitalize;
+  list-style: none;
+  /* background-color: rgba(94 151 135 / 77%); */
+  background-color: rgba(41, 70, 62, 0.627);
+  justify-content: center;
+  border-radius: 15px;
+  /* centrer un unique element verticalement et horizontalement */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 2s .2s;
+  overflow: hidden;
+  /* centrer un unique element verticalement et horizontalement */
+}
+
+
+
+
+
+
+
+
+
 *{
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
   box-sizing: border-box;
   font-family: 'poppins', sans-serif;
   color: rgb(248, 248, 100);
+  text-decoration-line: none;
 }
 * textarea{
   color: rgb(231, 234, 165);
@@ -25,9 +148,11 @@ body{
   background: -webkit-linear-gradient(-45deg, #052101 0%, #131514 54%, #1C0427 100%);
   background: linear-gradient(135deg, #052101 0%, #131514 54%, #1C0427 100%);
   display: flex;
-  justify-content: center;
   align-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .container{
   position: relative;
@@ -127,6 +252,174 @@ label{
   color: aliceblue;
 }
 
+
+/* ////////////////////////////////////////////
+   /////////////////////////////////////
+     //////////////////////////////// */
+
+
+
+
+/* RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE */
+
+
+@media screen and (max-width: 1265px) {
+.flexbox3 UL{
+  width: 1200px;
+  }
+}
+@media screen and (max-width: 1218px) {
+  .flexbox3 UL{
+    width: 1100px;
+  }
+}
+  @media screen and (max-width: 1118px) {
+    .flexbox3 UL{
+      width: 1000px;
+  }
+}
+    @media screen and (max-width: 1018px) {
+      .flexbox3 UL{
+        width: 900px;
+  }
+}
+@media screen and (max-width: 918px) {
+  .flexbox3 UL{
+    width: 814px;
+}
+}
+@media screen and (max-width: 830px) {
+  .flexbox3 UL{
+    width:700px;
+}
+}
+@media screen and (max-width: 718px) {
+  .flexbox3 UL{
+    width:600px;
+}
+}
+@media screen and (max-width: 618px) {
+  .flexbox3 UL{
+    width:500px;
+}
+}
+@media screen and (max-width: 525px) {
+  .flexbox3 UL{
+    width:400px;
+}
+}
+@media screen and (max-width: 418px) {
+  .flexbox3 UL{
+    width:350px;
+}
+}
+@media screen and (max-width: 368px) {
+  .flexbox3 UL{
+    width:320px;
+}
+}
+@media screen and (max-width: 340px) {
+  .flexbox3 UL{
+    width:300px;
+}
+}
+
+
+
+
+@media screen and (max-width: 910px) {
+  .flexbox3 li{
+    font-size: 1.2rem;
+    height: 135px;
+    width: 135px;
+  }  
+}
+
+@media screen and (max-width: 814px) {
+  .flexbox3 li{
+    font-size: 1.1rem;
+    height: 130px;
+    width: 130px;
+  }  
+}
+@media screen and (max-width: 778px) {
+  .flexbox3 li{
+    font-size: 1rem;
+    height: 120px;
+    width: 120px;
+  }  
+}
+@media screen and (max-width: 744px) {
+  .flexbox3 li{                                                     
+    font-size: 0.9rem;
+    height: 110px;
+    width: 110px;
+  }  
+}
+@media screen and (max-width: 710px) {
+  .flexbox3 li{
+    font-size: 0.8rem;
+    height: 100px;
+    width: 100px;
+  }  
+}
+@media screen and (max-width: 674px) {
+  .flexbox3 li{
+    font-size: 0.7rem;
+    height: 90px;
+    width: 90px;
+  }  
+}
+@media screen and (max-width: 640px) {
+  .flexbox3 li{
+    font-size: 0.6rem;
+    height: 80px;
+    width: 80px;
+  }  
+}
+@media screen and (max-width: 606px) {
+  .flexbox3 li{
+    font-size: 0.6rem;
+    height: 70px;
+    width: 70px;
+  }  
+}
+
+@media screen and (max-width: 542px) {
+  .flexbox3 li{
+    font-size: 0.6rem;
+    height: 70px;
+    width: 70px;
+  }  
+}
+@media screen and (max-width: 403px) {
+  .flexbox3 li{
+    font-size: 0.6rem;
+    height: 65px;
+    width: 65px;
+  }  
+}
+
+@media screen and (max-width: 365px) {
+  .flexbox3 li{
+    font-size: 0.6rem;
+    height: 60px;
+    width: 60px;
+  }  
+  .flexbox3 ul{
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 340px) {
+  .flexbox3 li{
+    font-size: 0.53rem;
+  }  
+}
+
+
+
+
+
 @media screen and (max-width: 569px){
 .form {
 width: 500px;
@@ -141,12 +434,12 @@ width: 505.5px;
 }
 }
 
-@media screen and (max-width: 519px){
+@media screen and (max-width: 520px){
   .form {
   width: 480px;
 }
 }
-@media screen and (max-width: 519px){
+@media screen and (max-width: 520px){
   .container {
   width: 485.5px;
 }
@@ -163,100 +456,111 @@ width: 505.5px;
 }
 }
 
-@media screen and (max-width: 470px){
+@media screen and (max-width: 472px){
     .form {
     width: 400px;
 }
 }    
-@media screen and (max-width: 470px){
+@media screen and (max-width: 472px){
     .container {
       width: 405px;
 }
 }
-@media screen and (max-width: 470px){
+@media screen and (max-width: 472px){
     .container::before,.container::after {
       height: 400px;
       transform-origin: bottom center;
 }
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 430px){
     .form {
       width: 380px;
 }
 }        
-@media screen and (max-width: 415px){
+@media screen and (max-width: 430px){
     .container {
       width: 385px;
 }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 420px){
     .form {
       width: 360px;
 }
 }         
-@media screen and (max-width: 400px){
+@media screen and (max-width: 420px){
     .container {
        width: 366px;
 }
 }
 
-@media screen and (max-width: 370px){
+@media screen and (max-width: 390px){
     .form {
       width: 350px;
 }
 }           
-@media screen and (max-width: 370px){
+@media screen and (max-width: 390px){
     .container {
        width: 355px;
 }
 }
-@media screen and (max-width: 370px){
+@media screen and (max-width: 390px){
     .container::before,.container::after {
         height: 400px;
         transform-origin: bottom center;
 }
 }
 
-@media screen and (max-width: 365px){
+@media screen and (max-width: 380px){
     .form {
         width: 330px;
+        align-items: center;
 }
 }            
-@media screen and (max-width: 365px){
+@media screen and (max-width: 380px){
     .container {
        width: 336px;
 }
 }
- @media screen and (max-width: 365px){
+ @media screen and (max-width: 380px){
     .container::before,.container::after {
       height: 400px;
       transform-origin: bottom center;
 }
  }
- @media screen and (max-width: 340px){
+ @media screen and (max-width: 370px){
     .form {
    width: 320px;
 }
 }               
- @media screen and (max-width: 340px){
+ @media screen and (max-width: 370px){
   .container {
    width: 325px;
 }
 }
- @media screen and (max-width: 330px){
+ @media screen and (max-width: 350px){
   .container {
    align-items: center;
    width: 306.5px;
  }
 }                       
 
- @media screen and (max-width: 330px){
+ @media screen and (max-width: 350px){
   .form {
     width: 300px;
  }
-}                
+}     
+@media screen and (max-width: 330px){
+  .form {
+    width: 290px;
+ }
+}   
+@media screen and (max-width: 350px){
+  .container {
+   width: 295.6px;
+ }
+}          
 
 
 @media screen and (max-width: 420px){
