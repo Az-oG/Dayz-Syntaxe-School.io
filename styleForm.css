@@ -7,7 +7,7 @@
   justify-content: space-around;
   /* background-color: rgba(240, 248, 255, 0.77); */
   border-radius: 15px;
-  margin-bottom: 40em;
+  margin-bottom: 30em;
   width: 1250px;
 }
 
@@ -49,7 +49,8 @@ transform: rotate(360deg);
 
 /* changement de couleur pour les labels lors du survolage de la souris "presentation/contact/photos/Formulaire"*/
 .flexbox3 li :hover{
-  color: beige;
+  color: #666607;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
  /* changement de couleur pour les labels lors du survolage de la souris "presentation/contact/photos/Formulaire"*/
 
@@ -61,7 +62,7 @@ transform: rotate(360deg);
 
 /* couleur du hover "presentation"  */
 .li1:hover {
-  background: rgba(249, 123, 219, 0.716);
+  background: rgba(245, 244, 244, 0.716);
 }
 /* couleur du hover "presentation"  */
 
@@ -71,7 +72,7 @@ transform: rotate(360deg);
 
  /* couleur du hover "contact"  */
 .li2:hover {
-  background: rgba(246, 234, 68, 0.716);
+  background: rgba(245, 244, 244, 0.716);
 }
 /* couleur du hover "contact"  */
 
@@ -80,12 +81,12 @@ transform: rotate(360deg);
 
 /* couleur du hover "photos"  */
 .li3:hover {
-  background: rgba(244, 53, 53, 0.716);
+  background: rgba(245, 244, 244, 0.716);
 }
 /* couleur du hover "photos"  */
 /* couleur du hover "Formulaire"  */
 .li4:hover {
-  background: rgba(95, 62, 241, 0.716);
+  background: rgba(245, 244, 244, 0.716);
 }
 /* couleur du hover "Formulaire"  */
 
@@ -250,6 +251,12 @@ label{
 .inputbox1 :hover{
   background-color:  #f9940760;
   color: aliceblue;
+}
+.footer{
+  color: white;
+  text-align: center;
+  font-size: 1.5vh;
+  font-family: Arial;
 }
 
 
