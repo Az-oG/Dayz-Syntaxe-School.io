@@ -255,7 +255,7 @@ label{
 .footer{
   color: white;
   text-align: center;
-  font-size: 1.5vh;
+  font-size: 1.1vh;
   font-family: Arial;
 }
 
@@ -390,6 +390,10 @@ label{
     height: 70px;
     width: 70px;
   }  
+  .footer{
+    font-size: 1vh;
+    
+  }
 }
 
 @media screen and (max-width: 542px) {
@@ -439,6 +443,10 @@ margin: 0;
 .container {
 width: 505.5px;
 }
+.footer{
+  font-size: 1vh;
+  
+}
 }
 
 @media screen and (max-width: 520px){
@@ -456,6 +464,10 @@ width: 505.5px;
   .form {
   width: 450px;
 }
+/* .footer{
+  font-size: 1.2vh;
+  
+} */
 }
 @media screen and (max-width: 500px){
   .container {
@@ -472,6 +484,10 @@ width: 505.5px;
     .container {
       width: 405px;
 }
+/* .footer{
+  font-size: 1.2vh;
+  
+} */
 }
 @media screen and (max-width: 472px){
     .container::before,.container::after {
@@ -489,6 +505,10 @@ width: 505.5px;
     .container {
       width: 385px;
 }
+/* .footer{
+  font-size: 1.2vh;
+  
+} */
 }
 
 @media screen and (max-width: 420px){
@@ -574,10 +594,18 @@ width: 505.5px;
   .form h1{
     font-size: 2.9rem;
   }
+  /* .footer{
+    font-size: 1.2vh;
+    
+  } */
 }
 @media screen and (max-width: 386px){
   .form h1{
     font-size: 2.8rem;
+  }
+  .footer{
+    font-size: 1vh;
+    
   }
 }
 
@@ -607,6 +635,12 @@ width: 505.5px;
 @media screen and (max-width: 370px){
   .inputbox select, textarea{
     width: 250px;
+  }
+}
+@media screen and (max-width: 370px){
+  .footer{
+    font-size: 0.80vh;
+    
   }
 }
 @media screen and (max-width: 330px){
